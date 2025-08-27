@@ -5,7 +5,7 @@ import { Text, TextInput, View } from "react-native";
 
 const CustomInput = ({
   placeholder = "Enter text",
-  value,
+  value = "",
   onChangeText,
   label,
   secureTextEntry = false,
