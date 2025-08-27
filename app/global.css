@@ -18,7 +18,7 @@
 
 @layer components {
     .cart-btn {
-        @apply flex items-center justify-center size-10 rounded-full bg-black-100;
+        @apply flex items-center justify-center size-10 rounded-full bg-dark-100;
     }
 
     .cart-badge {
@@ -26,7 +26,7 @@
     }
 
     .cart-item {
-        @apply flex flex-row items-end justify-between mb-4 bg-white rounded-xl p-3 shadow-md shadow-black-100/10;
+        @apply flex flex-row items-end justify-between mb-4 bg-white rounded-xl p-3 shadow-md shadow-dark-100/10;
     }
 
     .cart-item__image {
@@ -50,7 +50,7 @@
     }
 
     .input {
-        @apply rounded-lg p-3 w-full text-base font-quicksand-semiBold text-black-100 border-b leading-5;
+        @apply rounded-lg p-3 w-full text-base font-quicksand-semibold text-dark-100 border-b leading-5;
     }
 
     .filter {
@@ -58,7 +58,7 @@
     }
 
     .menu-card {
-        @apply relative py-9 px-3.5 pt-24 flex items-center justify-end bg-white rounded-3xl shadow-md shadow-black/10;
+        @apply relative py-9 px-3.5 pt-24 flex items-center justify-end bg-white shadow-md shadow-black/10 rounded-3xl;
     }
 
     .profile-field {
@@ -70,7 +70,7 @@
     }
 
     .searchbar {
-        @apply relative flex flex-row items-center justify-center w-full bg-white rounded-full font-quicksand-medium text-black-100 gap-5 shadow-md shadow-black/10;
+        @apply relative flex flex-row items-center justify-center w-full bg-white shadow-md shadow-black/10 rounded-full  font-quicksand-medium text-dark-100 gap-5;
     }
 
     .tab-icon {
@@ -78,14 +78,12 @@
     }
 
     .offer-card {
-        @apply w-full h-45 my-3 rounded-xl overflow-hidden shadow-lg flex items-center gap-5;
+        @apply w-full h-48 my-3 rounded-xl overflow-hidden shadow-lg flex items-center gap-5;
     }
 
     .offer-card__info {
         @apply flex-1 h-full flex flex-col justify-center items-start gap-4;
     }
-
-
 
     .profile-avatar {
         @apply relative size-28 border-white border-2 rounded-full;
@@ -108,7 +106,7 @@
     }
 
     .base-semibold {
-        @apply text-lg font-quicksand-semiBold;
+        @apply text-lg font-quicksand-semibold;
     }
 
     .base-regular {
@@ -120,7 +118,7 @@
     }
 
     .paragraph-semibold {
-        @apply text-base font-quicksand-semiBold;
+        @apply text-base font-quicksand-semibold;
     }
 
     .paragraph-medium {
